@@ -1,10 +1,7 @@
 console.log(
   "This is a personal website , any kind of stealing will be Deprecated"
 );
-// const scroll = new LocomotiveScroll({
-//   el: document.querySelector("main"),
-//   smooth: true,
-// });
+
 
 const counting = document.querySelector(".counter");
 const hi = document.querySelector(".hi");
@@ -40,7 +37,7 @@ document.querySelector("body").classList.add('showAll');
     counting.innerHTML = `${count}`;
   }, 34);
 }
-// loader()
+loader()
 
 function loader2() {
   var tl = gsap.timeline();
@@ -58,7 +55,7 @@ function loader2() {
   });
  
 }
-// loader2()
+loader2()
 
 function content() {
   gsap.from(main, {
@@ -69,4 +66,4 @@ function content() {
     stagger: 0.1,
   });
 }
-// content();
+content();
